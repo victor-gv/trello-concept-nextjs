@@ -1,0 +1,25 @@
+.sidebar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  min-height: 100%;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  justify-items: center;
+  margin-top: 1rem;
+}
+
+.top,
+.bot {
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
